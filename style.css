@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:'Roboto', sans-serif;
+    line-height: 1.5;
+}
+/* style nav */
+textarea{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top:0;
+    display: flex;
+    background: #333;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+    
+}
+ .logo{
+    font-size: 1.5rem;
+}
+.title ul{
+    display: flex;
+    list-style: none;
+}.title ul li{
+    margin:0 0.5rem;
+    
+}.title ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}.title ul li a:hover{
+    background: #93cb52;
+    border-radius: 0.3rem;
+}
+/* style header */
+header{
+    background :url('./img/showcase.jpg') no-repeat top center/cover;
+    color: #fff;
+    height: 100vh;
+   
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 1rem;
+    
+}
+header .content h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+}header .content p{
+    font-size: 1.2rem;
+    margin: 0.75rem 0;
+    line-height: 1.3;
+}header .content a{
+    background: #93cb52;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border:none;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 10px;
+}header .content a:hover{
+    background: #7ccf1c;
+}
+/* style whatwedo */
+.whatwedo{
+    width: 80%;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+    /* background: chocolate; */
+}.whatwedo h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.whatwedo .items{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    /* background: chartreuse; */
+
+}.whatwedo .items .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}.item-title{
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+.items .item p{
+    line-height: 1.2;
+    /* font-size: 1rem; */
+ 
+}
+.items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 0;
+
+}
+.items .item div p{
+    line-height: 1.6;
+}
+.items .item div h3{
+    font-weight: bold;
+    line-height: 1.4;
+}
+/* style who are you */
+.who{
+    display: flex;
+    background: #333;
+}
+.who .imagepeople{
+    flex: 1;
+}
+.who .imagepeople {
+    background: url('./img/people.jpg') no-repeat center center/cover;
+}
+.who .tutorial{
+    flex: 1;
+    color: #fff;
+    padding: 2rem;
+}
+.who .tutorial .ourteam{
+    list-style: none;
+}
+.who .tutorial p{
+    line-height: 1.6;
+}
+.who .tutorial h1{
+    margin-bottom: 1rem;
+}.who .tutorial h3{
+    margin: 1rem 0;
+}
+.who .tutorial .ourteam li{
+    margin: 0.5rem 0;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding: 0.3rem 0;
+
+}
+/* style customer */
+.customer .clients{
+    display: flex;
+    justify-content: center;
+    /* padding:0 100px; */
+}.customer .clients  img{
+    width: 65%;
+}
+.customer .clients  div{
+    display: flex;
+    justify-content: center;
+    /* background: chocolate; */
+    width: 200px;
+}
+.customer{
+    width: 90%;
+    margin: 2rem auto;
+    /* background: chartreuse; */
+}
+.customer h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+/* style contact_map */
+.contact_map{
+    display: flex;
+    color: rgba(255,255,255,1);
+}.contact_map p{
+    margin: 0.75rem 0;
+}
+.contact_map .contact{
+    flex: 1;
+    background: #93cb52;
+
+}
+.input label{
+    display: block;
+    /* line-height: 1.1; */
+    margin-bottom: 3px;
+}
+.input div{
+    margin:0.5rem 0;
+    padding: 0 0.75rem;
+}
+.input div input{
+    width: 100%;
+    height: 30px;
+    /* border-radius: 6px ; */
+    border: none;
+    padding: 10px;
+}
+.input div textarea{
+    width: 100%;
+    height: 40px;
+    /* border-radius: 6px ; */
+    border: none;
+    padding: 10px;
+}
+.input .nac{
+    width: 100%;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.map{
+    flex: 1;
+}
+.cpmap{
+    width: 100%;
+    height: 100%;
+}
+/* style footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #333;
+    height: 60px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 2rem;
+}
